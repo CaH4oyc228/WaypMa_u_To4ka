@@ -62,22 +62,19 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
 		width: 360px;
 	}
 	.content{
-        margin-top: 40px;
 		flex: 1 1 auto;
 		}
 	.footer{
 		margin-top: 20px;
 		height: 80px;
-		background-color: rgba(169, 169, 169, 0.6);
+		background-color: rgba(0, 0, 0, 0.6);
 	}
 	.sss{
-		display: inline;
+		display: flex;
 		overflow-x: hidden;
 		flex-direction: column;
-		
 		align-items: center;
     	justify-content: space-between;
-	   
 	}
 	a:hover{
 		color: #008000;
@@ -95,7 +92,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
 		padding-right: 50px;
 		padding-left: 50px;
 		font-size: 20px;
-		text-indent: 20px;
+		
 	}
 	.text1{
 		font-family:  "TimesNewRomanRegular";
@@ -104,29 +101,24 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
 		width: 86%;
 		background-color: rgba(255, 203, 0, 0.7);
 		padding: 18px;
-		padding-right: 50px;
-		padding-left: 50px;
+		padding-right: 100px;
+		padding-left: 100px;
 		font-size: 20px;
 		text-indent: 30px;
 	}
-	h1{
+	.h1{
 		background-color: rgba(0, 68, 0, 0.9); 
 		padding-top: 3px;
 		padding-bottom: 3px;
-		margin: 20px;
+		margin: auto;
 		text-align: center;
-		margin-bottom: 1em;
+		margin-top: 1em;
+		margin-bottom: 0.5em;
 		color: white;
-        font-style: italic;
+		font-style: italic;
 		font-family: "Century Gothic", sans-serif;
-    
+		
 	}
-    .TOP{
-        font-style: italic;
-        font-weight: bold;
-		font-family: "Century Gothic", sans-serif;
-        color:#ffcb00;
-    }
 	.start{
 		font-family:  "TimesNewRomanRegular";
 		margin-top: 40px;
@@ -147,8 +139,6 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
 	.map{
 		width: 38%;
 	}
-
-	
 	.photo{
 		display: flex;
 		justify-content: center;
@@ -157,37 +147,18 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
 	}
 	.ph{
 		width: 23%;
-		
 	}
-    .google{
-        margin-left: 30px;
-    }
-    .sss{
-        display: flex;
-        overflow-x: hidden;
-        flex-direction: column;
-        
-        align-items: center;
-        justify-content: space-between;
-    }
-    
-    .cohonec{
-        display: flex;
-        margin-top: 30px;
-        
-        align-items: center;
-        justify-content: center;
-        gap: 10px;
-    }
-    .footer{
-        margin-top: 20px;
-        height: 80px;
-        background-color: rgba(0, 0, 0, 0.8);
-    }
-    .text_down{
+	.cohonec{
+		display: flex;
+		align-items: center;
+    	justify-content: center;
+		gap: 10px;
+		margin-top: 20px;
+	}
+	.text_down{
         margin-right: 20px;
-        color:#800000 ;
-        font-weight: bold;
-        font-style: italic;
-        font-size: 24px;
+        color:#ffcb00 ;
+        font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+      
+        font-size: 12px;
     }

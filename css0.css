@@ -92,7 +92,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
 		padding-right: 50px;
 		padding-left: 50px;
 		font-size: 20px;
-		text-indent: 20px;
+		
 	}
 	.text1{
 		font-family:  "TimesNewRomanRegular";
@@ -101,21 +101,23 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
 		width: 86%;
 		background-color: rgba(255, 203, 0, 0.7);
 		padding: 18px;
-		padding-right: 50px;
-		padding-left: 50px;
+		padding-right: 100px;
+		padding-left: 100px;
 		font-size: 20px;
 		text-indent: 30px;
 	}
-	h1{
+	.h1{
 		background-color: rgba(0, 68, 0, 0.9); 
 		padding-top: 3px;
 		padding-bottom: 3px;
-		margin: 20px;
+		margin: auto;
 		text-align: center;
-		margin-bottom: 1em;
+		margin-top: 1em;
+		margin-bottom: 0.5em;
 		color: white;
 		font-style: italic;
 		font-family: "Century Gothic", sans-serif;
+		
 	}
 	.start{
 		font-family:  "TimesNewRomanRegular";
@@ -151,12 +153,12 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
 		align-items: center;
     	justify-content: center;
 		gap: 10px;
-		margin-top: 30px;
+		margin-top: 20px;
 	}
 	.text_down{
         margin-right: 20px;
-        color:#800000 ;
-        font-weight: bold;
-        font-style: italic;
-        font-size: 24px;
+        color:#ffcb00 ;
+        font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+      
+        font-size: 12px;
     }
