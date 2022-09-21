@@ -197,3 +197,39 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
 		font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
         font-size: 12px;
     }
+@media (max-width:1150px) {
+.header a{
+    width:140px;
+    font-size: 22px;
+}
+    
+}
+@media (max-width:1050px) {
+    .header a{
+        width:120px;
+        font-size: 19px;
+    }
+        
+    }
+@media (max-width:750px) {
+.header a{
+    width:100px;
+    font-size: 16px;
+}
+    
+}
+@media (max-width:550px) {
+    .header a{
+        width:50px;
+        font-size: 13px;
+    }
+        
+    }
+@media (max-width:320px) {
+.header a{
+    width:40px;
+    font-size: 12px;
+}
+    
+}
+	
